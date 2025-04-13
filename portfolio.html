@@ -1,20 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Uma Maheswari E</h1>
-    <h3> A computer science graduate looking for an opportunity to work in a dynamic environment apply my skills and grow alongside the company</h3>
-    <ol><b>Skills</b>
-        <li>Python</li>
-        <li>Sql</li>
-        <li>Basics of frontend</li>    
-    </ol>
-    <h3>Work Experience</h3>
-    <b>Invincible IT Services- Intern</b>
-    <p>Implemented modules for Employee Management, Expenses and User Profiles with intuitive CRUD operations and a responsive UI using Kendo UI and JavaScript. Implemented a secure file upload module with validation and audit trails to ensure data integrity in a system built on Asp.Net and Sql Server. Developed a web-based platform to streamline export and order management processes for tracking flower marketing  </p>
+  <div class="container">
+    <header>
+      <img src="pic.jpg" alt="Profile" class="profile-img" />
+      <h1>Uma Maheswari. E</h1>
+      <p class="tagline"> HTML | CSS | SQL | Python</p>
+    </header>
+
+    <section class="section">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Real Time Deep Learning Approach for Covid-19 and Viral Pneumonia Screening Using X-Ray Images</h3>
+          <p>Developed a deep learning model to automate X-ray image analysis for identifying disease patterns by achieving an 
+            accuracy of 97% in real time screening. Implemented the project using Flask API and deployed a model into AWS. I also led the team of four members.</p>
+        </div>
+        <div class="card">
+          <h3>Tic-Tac-Toe App Using JavaScript</h3>
+          <p> Developed a web-based game application mini project using HTML, CSS, JavaScript. Implemented game logic to 
+            allow two players to take turns marking spaces on 3*3 grid. Utilized event handling for user intercation and used 
+            logics to determine game outcome.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Work Experience</h2>
+      <div class="card">
+        <h3>Invincible IT Services</h3>
+        <p>Intern</p>
+        <p>Implemented modules for Employee Management, Expenses and User Profiles with 
+            intuitive CRUD operations and a responsive UI using Kendo UI and JavaScript. Implemented a secure file upload module with validation and audit trails to ensure data 
+            integrity in a system built on Asp.Net and Sql Server. Developed a web-based platform to streamline export and order management 
+            processes for tracking flower marketing</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>SQL</span>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
